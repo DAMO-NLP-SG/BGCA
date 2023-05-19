@@ -48,3 +48,17 @@ bash ../scripts/run_aste.sh
 
 ## Note
 1. Extract model in the code refers to text-to-label stage in the paper, and Gene model refers to label-to-text stage.
+
+
+## Citation
+If the code is used in your research, please star our repo and cite our paper as follows:
+```
+@misc{deng2023bidirectional,
+      title={Bidirectional Generative Framework for Cross-domain Aspect-based Sentiment Analysis}, 
+      author={Yue Deng and Wenxuan Zhang and Sinno Jialin Pan and Lidong Bing},
+      year={2023},
+      eprint={2305.09509},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
