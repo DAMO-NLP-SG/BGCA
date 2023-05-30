@@ -2,6 +2,10 @@
 
 This repo contains the data and code for our paper "Bidirectional Generative Framework for Cross-domain Aspect-based Sentiment Analysis" (BGCA) in ACL 2023.
 
+## Description
+![](./figure/overview.jpg)
+Specifically, our framework trains a generative model in both text-to-label and label-to-text directions. The former transforms each task into a unified format to learn domain-agnostic features, and the latter generates natural sentences from noisy labels for data augmentation, with which a more accurate model can be trained.
+
 ## Requirements
 
 This repo is developed using the following packages:
@@ -54,7 +58,7 @@ bash ../scripts/run_aste.sh
 If the code is used in your research, please star our repo and cite our paper as follows:
 ```
 @misc{deng2023bidirectional,
-      title={Bidirectional Generative Framework for Cross-domain Aspect-based Sentiment Analysis}, 
+      title={Bidirectional Generative Framework for Cross-domain Aspect-based Sentiment Analysis},
       author={Yue Deng and Wenxuan Zhang and Sinno Jialin Pan and Lidong Bing},
       year={2023},
       eprint={2305.09509},
