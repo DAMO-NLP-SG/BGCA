@@ -1,6 +1,6 @@
 # BGCA
 
-This repo contains the data and code for our paper "Bidirectional Generative Framework for Cross-domain Aspect-based Sentiment Analysis" (BGCA) in ACL 2023.
+This repo contains the data and code for our paper "[Bidirectional Generative Framework for Cross-domain Aspect-based Sentiment Analysis](https://arxiv.org/abs/2305.09509)" (BGCA) in ACL 2023.
 
 ## Description
 ![](./figure/overview.jpg)
