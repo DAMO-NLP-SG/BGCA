@@ -57,12 +57,18 @@ bash ../scripts/run_aste.sh
 ## Citation
 If the code is used in your research, please star our repo and cite our paper as follows:
 ```
-@misc{deng2023bidirectional,
-      title={Bidirectional Generative Framework for Cross-domain Aspect-based Sentiment Analysis},
-      author={Yue Deng and Wenxuan Zhang and Sinno Jialin Pan and Lidong Bing},
-      year={2023},
-      eprint={2305.09509},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{deng-etal-2023-bidirectional,
+    title = "Bidirectional Generative Framework for Cross-domain Aspect-based Sentiment Analysis",
+    author = "Deng, Yue  and
+      Zhang, Wenxuan  and
+      Pan, Sinno Jialin  and
+      Bing, Lidong",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.686",
+    pages = "12272--12285",
 }
 ```
